@@ -21,7 +21,6 @@ num = int(input())
 
 count = 0
 
-
 for i in range(num) :
   if num < 100 :
     count += 1
