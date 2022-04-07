@@ -35,3 +35,13 @@ case1 = list(case1)[::-1]
 case2 = list(case2)[::-1]
 
 print(''.join(case1)) if int("".join(case1)) > int("".join(case2)) else print(''.join(case2))
+
+# 1427 내립차순!!
+
+number = input()
+
+number_list = list(number)
+
+number_list.sort(reverse=True)
+
+print(int("".join( number_list)))
