@@ -45,3 +45,15 @@ number_list = list(number)
 number_list.sort(reverse=True)
 
 print(int("".join( number_list)))
+
+# 2869
+
+A, B ,V = map(int, input().split())
+
+can_oneday = A - B
+
+if (V-A) % can_oneday == 0:
+  duration = int((V-A) / can_oneday)
+else :
+  duration = int((V-A) / can_oneday +1)
+print(duration + 1)
