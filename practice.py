@@ -28,3 +28,20 @@
 #   duration = int((V-A) / can_oneday +1)
 # print(duration + 1)
 
+# weight = int(input())
+
+# count = 0
+
+# while weight >= 0:
+
+#   if weight % 5 == 0:
+#     count += weight // 5
+#     weight = 0
+#  
+#   weight -= 3
+#   count += 1
+# if(weight != 0) :
+#   print(-1)
+# else : 
+#   print(count)
+
