@@ -45,3 +45,21 @@
 # else : 
 #   print(count)
 
+# N = int(input())
+# for i in range(N):
+#   room = []
+#   length, width, number = map(int, input().split())
+#   for j in range(1, width+1) :
+#     for k in range(1, length+1) :
+#       room.append(str(k) + str(j).zfill(2))
+#   print(room[number-1])
+
+score = []
+for i in range(5):
+  score.append(int(input()))
+
+for i in range(len(score)) :
+  if score[i] < 40 :
+    score[i] = 40
+print(score)
+print(sum(score)//5)
