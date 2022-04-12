@@ -54,12 +54,34 @@
 #       room.append(str(k) + str(j).zfill(2))
 #   print(room[number-1])
 
-score = []
-for i in range(5):
-  score.append(int(input()))
+# score = []
+# for i in range(5):
+#   score.append(int(input()))
 
-for i in range(len(score)) :
-  if score[i] < 40 :
-    score[i] = 40
-print(score)
-print(sum(score)//5)
+# for i in range(len(score)) :
+#   if score[i] < 40 :
+#     score[i] = 40
+    
+# print(sum(score)//5)
+
+# x, y, w, h = map(int, input().split())
+
+# print(min(x, y, w-x, h-y))
+
+# case = int(input())
+
+
+# for i in range(case) :
+#   height = int(input())
+#   people = int(input())
+#   zfloor = [x for x in range(1, people+1)]
+#   upfloor = []
+#   #print(zfloor)
+#   for i in range(height):
+#     for j in range(1, people):
+#       zfloor[j] += zfloor[j-1]
+#   #print(zfloor)
+#   print(zfloor[-1])
+
+A, B = map(int, input().split())
+

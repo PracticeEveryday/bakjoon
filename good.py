@@ -57,3 +57,20 @@ if (V-A) % can_oneday == 0:
 else :
   duration = int((V-A) / can_oneday +1)
 print(duration + 1)
+
+# 2775
+
+case = int(input())
+
+
+for i in range(case) :
+  height = int(input())
+  people = int(input())
+  zfloor = [x for x in range(1, people+1)]
+  upfloor = []
+  #print(zfloor)
+  for i in range(height):
+    for j in range(1, people):
+      zfloor[j] += zfloor[j-1]
+  #print(zfloor)
+  print(zfloor[-1])
