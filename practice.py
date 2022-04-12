@@ -83,5 +83,17 @@
 #   #print(zfloor)
 #   print(zfloor[-1])
 
-A, B = map(int, input().split())
+# A = list(map(int, input().split()))
 
+# B = min(A)
+# C = max(A)
+
+# A.pop(A.index(B))
+# A.pop(A.index(C))
+
+# print(*A)
+
+# N = int(input())
+
+# for i in range(N) :
+#   print("*"*(N-i))
