@@ -97,3 +97,27 @@
 
 # for i in range(N) :
 #   print("*"*(N-i))
+
+
+''''
+  a**2 + b**2 = c**2
+'''
+
+while True:
+  A, B, C = map(int, input().split())
+  arr = [A, B, C]
+  if A == 0 and B == 0 and C == 0 :
+    break
+  hypotenuse = max(A, B, C)
+  idx = arr.index(hypotenuse)
+  arr.pop(idx)
+  # print(arr)
+  N = arr[0]
+  M = arr[1]
+
+  # print(N, M, hypotenuse)
+
+  if hypotenuse ** 2 == N ** 2 + M ** 2:
+    print("right")
+  else :
+    print("wrong")
